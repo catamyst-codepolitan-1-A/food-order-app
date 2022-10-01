@@ -12,6 +12,7 @@ body {
   --navbar-background: #f8f4e3;
   --navbar-font-color: #2a2b2a;
   --icon-color: #ec7272;
+  --remove-button: #e76f51;
 }
 
 h1 {
@@ -61,6 +62,8 @@ section {
   color: var(--icon-color);
 }
 
+/* Food Catalogue Styling */
+
 .food-catalogue {
   display: grid;
   grid-template-columns: repeat(3, 350px);
@@ -87,10 +90,16 @@ section {
 
 .add-to-cart {
   color: white;
-  background-color: #e5446d;
+  background-color: #264653;
   border-radius: 10px;
   padding: 8px;
+  max-width: max-content;
 }
+
+.add-to-cart:hover {
+  cursor: pointer;
+}
+
 .card-price {
   display: flex;
   flex-direction: column;
@@ -101,4 +110,49 @@ section {
 
 .la-cart-plus {
   font-size: 1.5rem;
+}
+
+/* Cart Styling */
+
+.cart-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+.cart-image {
+  display: flex;
+  align-items: center;
+}
+
+.cart-quantity {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+.la-plus-circle:hover {
+  cursor: pointer;
+}
+
+.la-minus-circle:hover {
+  cursor: pointer;
+}
+
+.cart-remove-button {
+  margin-left: 20px;
+  color: #e76f51;
+}
+
+.cart-remove-button:hover {
+  cursor: pointer;
+}
+
+.cart-total {
+  display: flex;
+  gap: 30px;
+  justify-content: end;
 }
