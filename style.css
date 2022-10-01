@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+:root {
+  --navbar-background: #f8f4e3;
+  --navbar-font-color: #2a2b2a;
+  --icon-color: #ec7272;
+}
+
+h1 {
+  font-size: 3.375rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+img {
+  border-radius: 18px 0 0px 18px;
+}
+
+main {
+  max-width: 1200px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+}
+
+section {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.navbar {
+  background-color: var(--navbar-background);
+  color: var(--navbar-font-color);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding: 10px;
+}
+
+.la-hamburger {
+  font-size: 2.25rem;
+  color: var(--icon-color);
+}
+
+.food-catalogue {
+  display: grid;
+  grid-template-columns: repeat(3, 350px);
+  gap: 30px;
+  justify-content: center;
+}
+
+.food-card-item {
+  display: flex;
+  flex-direction: row;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #b8b8b8;
+  border-radius: 18px;
+  gap: 20px;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.add-to-cart {
+  color: white;
+  background-color: #e5446d;
+  border-radius: 10px;
+  padding: 8px;
+}
+.card-price {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: left;
+  gap: 10px;
+}
+
+.la-cart-plus {
+  font-size: 1.5rem;
+}
