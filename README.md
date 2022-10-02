@@ -1,7 +1,12 @@
 # Simple Food Ordering App
 
-A simple website for simulating ordering food online.
+A simple website for simulating add to cart when ordering food online.
 
-repo: https://github.com/catamyst-codepolitan-1-A/food-order-app
+> Features that not implemented yet :
+>
+> - increment and decrement quantity of cart items is not implemented yet.
+> - Order Now button is not created yet
 
-live: publish soon
+repo: [click here](https://github.com/catamyst-codepolitan-1-A/food-order-app)
+
+live: [click here](https://food-order-simulation.netlify.app/)
